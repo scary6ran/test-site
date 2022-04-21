@@ -1,22 +1,46 @@
 html {
- 
-}    
+    background-color: blanchedalmond;
+    font-size: 10px;
+    font-family: 'PT Sans', sans-serif;
+}   
+body {
+    background-color: bisque;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px dotted black
+} 
 h1 {
-
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:brown;
+    
 }
 h2 {
-
+    margin: 0;
 }
 h3 {
-
+    margin: 0;
 }
-p {
+p, li {
     width: 500px;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
     border: 1px solid blueviolet;
 }
 em {
     color:aquamarine;
+    text-shadow: 3px 3px 1px black;
 }
 strong {
     color:aquamarine;
+}
+img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    object-position: right top;
 }
